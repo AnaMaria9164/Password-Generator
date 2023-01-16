@@ -138,7 +138,7 @@ function getPasswordOptions() {
 
 // Function for getting a random element from an array
 function getRandom(arr) {
-let randomIndex = Math.floor(Math.random() + arr.length)
+let randomIndex = Math.floor(Math.random() * arr.length)
 let randomElement = arr[randomIndex];
 
 return randomElement; 
@@ -148,12 +148,8 @@ return randomElement;
 function generatePassword() {
   let options = getPasswordOptions();
   console.log(options);
-  let result = [
-  ]
-
-
+  let result = []
   let possibleCharacter = []
-
   let guaranteedCharacter = []
 
   if(options.hasSpecialCharacters) {
@@ -184,9 +180,7 @@ function generatePassword() {
   console.log(result);
 
 return result.join("")
-
 }
-
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
