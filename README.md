@@ -15,7 +15,7 @@ To use this code click on the Generate Password and input how many letters you w
 
 Screenshot of the webpage below:
 
-![alt text](images/05-javascript-challenge-demo.png)
+![alt text](Password-Generator/Images/05-javascript-challenge-demo.png)
 
 Deployed page: https://anamaria9164.github.io/Password-Generator/
 
