@@ -2,7 +2,7 @@
 
 ## Description
 
-This Password Generator was created to generate a random password wiht uppercased and lowercased letters as well as with a numeric and special character.
+This Password Generator was created to generate a random password with uppercased and lowercased letters as well as with a numeric and special character.
 
 
 ## Installation
