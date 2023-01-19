@@ -131,7 +131,7 @@ function getPasswordOptions() {
         hasSpecialCharacters: hasSpecialCharacters,
         hasUpperCasedCharacters: hasUpperCasedCharacters,
         hasLowerCasedCharacters: hasLowerCasedCharacters,
-        hasNumericCharacters: hasNumericCharacters;
+        hasNumericCharacters: hasNumericCharacters
       }
       return passwordOptions;
 }
